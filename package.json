@@ -8,6 +8,10 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+<<<<<<< HEAD
+=======
+    "react-router-dom": "^5.1.2",
+>>>>>>> Lesson 29
     "react-scripts": "3.4.1"
   },
   "scripts": {
