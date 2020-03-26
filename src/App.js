@@ -1,20 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-import './App.css';
-import Header from './components/Header';
-import NavBar from './components/NavBar';
-import Profile from './components/Profile';
-const App = () => {
-  return (
-    <div className="app-wrapper">
-        <Header />
-        <NavBar />
-        <Profile />
-    </div>   
-  );
-}
-=======
-import {BrowserRouter ,Route} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
@@ -27,21 +12,24 @@ import Settings from './components/Settings/Settings';
 
 const App = (props) => {
   return (
-      <BrowserRouter>
           <div className="app-wrapper">
               <Header />
               <NavBar />
               <div className="app-wrapper-content">
-                  <Route path='/profile'  render={ () => <Profile /> }/>
-                  <Route path='/dialogs'  render={ () => <Dialogs /> }/>
+                  <Route path='/profile'
+                         render={ () => <Profile
+                             profilePage={props.state.profilePage}
+                             addPost={props.addPost}
+                             updateNewPostText={props.updateNewPostText}
+                         />}/>
+                  <Route path='/dialogs'
+                         render={ () => <Dialogs state={props.state.dialogsPage}/> }/>
                   <Route path='/news'     render={ () => <News /> }/>
                   <Route path='/music'    render={ () => <Music /> }/>
                   <Route path='/settings' render={ () => <Settings /> }/>
               </div>
 
           </div>
-      </BrowserRouter>
   );
 };
->>>>>>> Lesson 29
 export default App;

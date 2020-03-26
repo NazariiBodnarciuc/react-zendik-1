@@ -9,7 +9,7 @@
     width: 1200px;
 
 }
-<<<<<<< HEAD
+
 .header{
     grid-area: header;
     background-color: aquamarine;
@@ -27,11 +27,11 @@
     grid-area: content;
     background-color: cornflowerblue;
 }
-=======
+
 .app-wrapper-content {
     grid-area: content;
     background-color: cornflowerblue;
 }
 
 
->>>>>>> Lesson 29
+
