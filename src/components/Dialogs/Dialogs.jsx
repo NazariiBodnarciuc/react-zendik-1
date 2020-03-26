@@ -2,26 +2,25 @@ import React from 'react';
 import s from './Dialogs.module.css';
 import DialogItem from './DialogItem/DialogItem';
 import Message from './Message/Message';
+import {updateNewMessageBodyCreator, sendMessageCreator} from "../../redux/state";
 
 const Dialogs = (props) => {
+    let state = props.store.getState().dialogsPage;
 
-    let dialogs = [
-        {id: 1, name: 'Nazarii'},
-        {id: 2, name: 'Roman'},
-        {id: 3, name: 'Tomas'},
-        {id: 4, name: 'Jon'}
+    let dialogsElement = state.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
 
-    ];
-    let messages = [
-        {id: 1, message: 'Hi'},
-        {id: 2, message: 'How is it going'},
-        {id: 3, message: '???'},
-        {id: 4, message: 'Yo...'}
-    ];
+    let mesagesElements = state.messages.map(m => <Message message={m.message}/>);
 
-    let dialogsElement = dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
+    let newMessageBody = state.newMessageBody;
 
-    let mesagesElements = messages.map(m => <Message message={m.message}/>);
+    let onSendMessageClick = () => {
+        props.store.dispatch(sendMessageCreator());
+
+    };
+    let onNewMessageChange = (e) => {
+        let body = e.target.value;
+        props.store.dispatch(updateNewMessageBodyCreator(body));
+    };
 
     return (
         <div className={s.dialogs}>
@@ -29,7 +28,20 @@ const Dialogs = (props) => {
                 {dialogsElement}
             </div>
             <div className={s.messages}>
-                {mesagesElements}
+                <div>{mesagesElements}</div>
+                <div>
+                    <div>
+                        <textarea
+                            value={newMessageBody}
+                            onChange={onNewMessageChange}
+                            placeholder="Enter your message"/>
+                    </div>
+                    <div>
+                        <button onClick={onSendMessageClick}>Send</button>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     )
