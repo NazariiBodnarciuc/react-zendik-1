@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7199a6c-8986-4827-8a6d-979422f1c6a8" name="Default" comment="Lesson 40 Add Message to app&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;">
+    <list default="true" id="d7199a6c-8986-4827-8a6d-979422f1c6a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="Dialogs.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="931">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <marker date="1585527596990" expanded="true" signature="1451:1470" ph="&lt;div/&gt;" />
@@ -95,14 +95,14 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="NazariiBodnarciuc" />
         <option value="NazariiBodnarciuc &lt;62654833+nazariibodnarciuc@users.noreply.github.com&gt;" />
+        <option value="NazariiBodnarciuc" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson37" />
+        <entry key="$PROJECT_DIR$" value="Lesson40" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -458,7 +458,7 @@
       <workItem from="1585178559335" duration="8000" />
       <workItem from="1585178608666" duration="16229000" />
       <workItem from="1585439575543" duration="150000" />
-      <workItem from="1585440648331" duration="7629000" />
+      <workItem from="1585440648331" duration="8190000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 27&#10;">
       <created>1585254320224</created>
@@ -502,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585527916558</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson 40 Add Message to app&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;">
+      <created>1585528142536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585528142536</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44049000" />
+    <option name="totallyTimeSpent" value="44610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="931">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <marker date="1585527596990" expanded="true" signature="1451:1470" ph="&lt;div/&gt;" />
