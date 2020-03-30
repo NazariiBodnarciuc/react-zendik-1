@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7199a6c-8986-4827-8a6d-979422f1c6a8" name="Default" comment="">
+    <list default="true" id="d7199a6c-8986-4827-8a6d-979422f1c6a8" name="Default" comment="Lesson 40 Add Message to app&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/state.js" afterPath="$PROJECT_DIR$/src/redux/state.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +36,8 @@
       <file leaf-file-name="Dialogs.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="855">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <marker date="1585527596990" expanded="true" signature="1451:1470" ph="&lt;div/&gt;" />
@@ -101,6 +95,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="NazariiBodnarciuc" />
         <option value="NazariiBodnarciuc &lt;62654833+nazariibodnarciuc@users.noreply.github.com&gt;" />
       </list>
     </option>
@@ -173,8 +168,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
-    <option name="width" value="1458" />
+    <option name="x" value="1095" />
+    <option name="width" value="825" />
     <option name="height" value="1200" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -463,7 +458,7 @@
       <workItem from="1585178559335" duration="8000" />
       <workItem from="1585178608666" duration="16229000" />
       <workItem from="1585439575543" duration="150000" />
-      <workItem from="1585440648331" duration="7285000" />
+      <workItem from="1585440648331" duration="7629000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 27&#10;">
       <created>1585254320224</created>
@@ -493,11 +488,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585441262314</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson 40&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;">
+      <created>1585527791062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585527791062</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson 40 Add Message to app&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;">
+      <created>1585527916558</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585527916558</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43705000" />
+    <option name="totallyTimeSpent" value="44049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,7 +518,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="0" width="1458" height="1200" extended-state="6" />
+    <frame x="1095" y="0" width="825" height="1200" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43926555" sideWeight="0.47735506" order="0" side_tool="false" content_ui="combo" />
@@ -561,7 +570,9 @@
     </ignored-roots>
     <MESSAGE value="Lesson 27&#10;" />
     <MESSAGE value="Lesson 37&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 37&#10;" />
+    <MESSAGE value="Lesson 40&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;" />
+    <MESSAGE value="Lesson 40 Add Message to app&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 40 Add Message to app&#10;&#10;Signed-off-by: NazariiBodnarciuc &lt;62654833+NazariiBodnarciuc@users.noreply.github.com&gt;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -881,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="855">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <marker date="1585527596990" expanded="true" signature="1451:1470" ph="&lt;div/&gt;" />
